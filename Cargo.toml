@@ -1,0 +1,25 @@
+[package]
+name = "ygg-grpc-proxy"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ygg-grpc-proxy"
+path = "src/main.rs"
+
+[dependencies]
+tokio       = { version = "1", features = ["full"] }
+tonic       = { version = "0.11", features = ["tls", "tls-roots"] }
+prost       = "0.12"
+anyhow      = "1"
+clap        = { version = "4", features = ["derive"] }
+env_logger  = "0.11"
+log         = "0.4"
+tokio-stream = { version = "0.1", features = ["net"] }
+rustls      = "0.22"
+tokio-rustls = "0.25"
+webpki-roots = "0.26"
+rustls-pki-types = "1"
+
+[build-dependencies]
+tonic-build = "0.11"

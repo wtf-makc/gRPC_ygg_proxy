@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package tunnel;
+
+service Tunnel {
+  // Bidirectional stream: raw bytes in both directions
+  rpc Pipe(stream Frame) returns (stream Frame);
+}
+
+message Frame {
+  bytes data = 1;
+}
+
+message ConnectRequest {
+  // Target peer URI on the server side, e.g. "tls://peer.ygg.example.com:1234"
+  string target = 1;
+}
