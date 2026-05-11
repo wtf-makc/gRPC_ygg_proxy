@@ -1,2 +1,0 @@
-cargo:rerun-if-changed=proto/tunnel.proto
-cargo:rerun-if-changed=proto

@@ -1,1 +1,0 @@
-/home/max/Desktop/ygg_gRPC/gRPC_tun/target/release/ygg-grpc-proxy: /home/max/Desktop/ygg_gRPC/gRPC_tun/build.rs /home/max/Desktop/ygg_gRPC/gRPC_tun/proto /home/max/Desktop/ygg_gRPC/gRPC_tun/proto/tunnel.proto /home/max/Desktop/ygg_gRPC/gRPC_tun/src/main.rs /home/max/Desktop/ygg_gRPC/gRPC_tun/target/release/build/ygg-grpc-proxy-3a0b75212019ed37/out/tunnel.rs
